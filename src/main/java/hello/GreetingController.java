@@ -25,7 +25,7 @@ public class GreetingController {
     	List<String> data = new ArrayList();
     	data.add("Indonesia");
     	data.add("Malaysia");
-    	data.add("Brunei");
+    	data.add("Singapura");
     	data.add("Timor Leste");
     	
     	return data.stream().filter(line->line.startsWith(prefix)).collect(Collectors.toList());
