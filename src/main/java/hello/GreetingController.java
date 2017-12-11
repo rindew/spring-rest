@@ -33,7 +33,7 @@ public class GreetingController {
     	data.add("Indonesia");
     	data.add("Malaysia");
     	data.add("Singapura");
-    	data.add("Timor Leste");
+    	data.add("Thailand");
     	
     	return data.stream().filter(line->line.startsWith(prefix)).collect(Collectors.toList());
     }
